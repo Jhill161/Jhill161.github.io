@@ -7,13 +7,13 @@
   
   /* Page content */
   .content {
-    padding: 16px;
+    padding: 16x;
   }
   
   /* The sticky class is added to the header with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
-    top: 0;
+    top: -3%;
     width: 100%
   }
   
@@ -24,4 +24,5 @@
 
   body {
       background-color: black;
+      color: white;
 }
