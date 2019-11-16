@@ -13,7 +13,7 @@
   /* The sticky class is added to the header with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
-    top: -7%;
+    top: -1%;
     width: 100%
   }
   
