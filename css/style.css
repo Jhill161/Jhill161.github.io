@@ -1,10 +1,40 @@
 /* Style the header */
 .header {
     padding: 10px 16px;
-    background: #555;
+    background: #005564;
     color: #f1f1f1;
+    border: white;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
   }
   
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  #social {
+    float: right;
+
+  }
   /* Page content */
   .content {
     padding: 16x;
@@ -23,7 +53,7 @@
   }
 /* Body styling */
   body {
-      background-color: black;
+      background-color: #01262D  ;
       color: white;
 }
 
