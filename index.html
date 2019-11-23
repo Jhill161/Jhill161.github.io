@@ -2,35 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jason Hill | Full Stack Software Developer</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div>
-        <ul class="header" id="myHeader">
-          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
-          <li class="nav-item"><a href="#" class="fa fa-facebook" id="social"></a></li>
-          <li class="nav-item"><a href="https://twitter.com/JasonHill161" class="fa fa-twitter" id="social"></a></li>
-          <li class="nav-item"><a href="#" class="fa fa-instagram" id="social"></a></li>
-          <li class="nav-item"><a href="https://www.linkedin.com/in/jasonhill161/" class="fa fa-linkedin" id="social"></a></li>
-        </ul>
-        <!-- <a href="#" class="fa fa-facebook" id="social"></a>
-        <a href="https://twitter.com/JasonHill161" class="fa fa-twitter" id="social"></a>
-        <a href="#" class="fa fa-instagram" id="social"></a>
-        <a href="https://www.linkedin.com/in/jasonhill161/" class="fa fa-linkedin" id="social"></a> -->
-     </div>
-     <div>
-         <h1 class="intro">Hello, I'm Jason.</h1>
-         <h3 class="intro">I'm a Full Stack Software Developer, Licensed Electrician and Foreman, and former Marine.  Transfering my life experiences to my passion in the tech industry.</h3>
-     </div>
+        <nav class="navbar fixed-top">
+            <a class="navbar-brand float-right" href="#">
+            <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> j<u>Hill</u></a>
+            <ul class="navbar-nav ml-auto"></ul>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
+                <li class="nav-item"><a href="#" class="fa fa-facebook"></a></li>
+                <li class="nav-item"><a href="https://twitter.com/JasonHill161" class="fa fa-twitter"></a></li>
+                <li class="nav-item"><a href="#" class="fa fa-instagram"></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/jasonhill161/" class="fa fa-linkedin"></a></li>
+            </ul> 
+        </nav>
+    </div>  
+ 
+    <div class="container">
+         <h1>Hello, I'm Jason.</h1>
+         <h3>I'm a Full Stack Software Developer, Licensed Electrician and Foreman, and former Marine.  Transfering my life experiences to my passion in the tech industry.</h3>
+    </div>
+
+    <div class="container border border-white">
+        <h3 class="text-white">Education</h3>
+        <div class="container">
+            <h4 class="text-white">Treehouse</h4>
+            <h5 class="text-white">Full Stack JavaScript TechDegree</h5>
+
+
+        </div>
+    </div>
+
+    <div class="jumbotron container border border-white">
+        <h1 class="display-4 text-white">Interactive Form</h1>
+        <p class="lead">This project is an Interactive Form made in jQuery.  Select box's will change based on T-Shirt theme selection, activities will disable if conflicting time and day activity is selected, and update total cost.  Selecting <em>other</em> in the Job section, will trigger an input to type job information.  Payment options will change based on input selection.  Validation of inputs will happen on submission, with real time validation of zipcode.</p>
+        <p>Form will display 405 error upon submission as there is no back end setup.</p>
+        <hr class="my-4">
+        <a class="btn btn-outline-light" href="https://www.jasonhill.io/techdegree-project-3/" role="button">View Demo</a>
+        <a class="btn btn-outline-light" href="https://github.com/Jhill161/techdegree-project-3" role="button">View Code</a>
+    </div>
+    
+    <div class="jumbotron container border border-white">
+        <h1 class="display-4 text-white">List Pagination | Real Time Search</h1>
+        <p class="lead">This project is a List Pagination, with real time Search done with vanilla JavaScript.  It has a list of 54 students, where pagination is applied in groups of 10.  Search box will filter results, and paginate them, as well as real time display of results.  If no results are found, a message will appear to inform no results were found. </p>
+        <hr class="my-4">
+        <a class="btn btn-outline-light" href="https://www.jasonhill.io/techdegree-project-2/" role="button">View Demo</a>
+        <a class="btn btn-outline-light" href="https://github.com/Jhill161/techdegree-project-2" role="button">View Code</a>
+    </div>
     
     <script src = "js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
