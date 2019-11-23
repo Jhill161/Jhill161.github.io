@@ -1,4 +1,4 @@
-/* Style the header */
+
 
 .jumbotron {
   background-color: #005564;
@@ -9,6 +9,11 @@
   }
   .navbar-brand {
     color: #0090a6;
+  }
+  .container {
+    background-color: #005564;
+    padding: 10px;
+
   }
   li {
     list-style-type: none;
@@ -30,11 +35,11 @@
   }
   
   /* The sticky class is added to the header with JS when it reaches its scroll position */
-  /*.sticky {
+  .sticky {
     position: fixed;
     top: -3%;
     width: 100%
-  }*/
+  }
   
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
