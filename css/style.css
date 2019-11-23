@@ -3,6 +3,7 @@
 .jumbotron {
   background-color: #005564;
   padding: 10px;
+  margin-bottom: 20px;
 }
   .navbar {
     background-color: #005564;
@@ -21,7 +22,17 @@
  a {
    color: #0090a6;
  }
-  
+ body {
+   padding: 150px;
+ }
+
+ #about {
+   margin-bottom: 20px;
+ }
+ 
+ #school {
+   margin-bottom: 20px;
+ }
   
   
   /* Change the link color to #111 (black) on hover */
