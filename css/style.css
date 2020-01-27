@@ -17,13 +17,10 @@
 
   }
   li {
-    list-style-type: none;
+    /* list-style-type: none; */
   }
  a {
    color: #0090a6;
- }
- body {
- 
  }
 
  #about {
@@ -43,9 +40,9 @@
   height: 25%;
 }
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+  /* li a:hover {
     background-color: #005599;
-  }
+  } */
   
   /* Page content */
   .content {
@@ -624,3 +621,4 @@ h5 {
     font-weight: bold;
     font-size: 1.8vmin;
   }
+}
